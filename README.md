@@ -6,7 +6,7 @@ A Reddit Flair Detector web application to detect flairs of India subreddit post
 
 The directory largely contains 2 ipython notebooks and 1 web directory:
 
-1. [Data-Acquisition Notebook](https://github.com/divyanshuaggarwal/Reddit-Flair-Detector/blob/master/Reddit_Data_Collector.ipynb) contains all the code that was used to fetch data using PRAW API from reddit and adding it to the mongodb database using pymongo. It was the fetched back from the data base and pre-processed to add it into a CSV file to do the data analysis and build the machine learning model.
+1. [Data-Collection Notebook](https://github.com/divyanshuaggarwal/Reddit-Flair-Detector/blob/master/Reddit_Data_Collection.ipynb) contains all the code that was used to fetch data using PRAW API from reddit and adding it to the mongodb database using pymongo. It was the fetched back from the data base and pre-processed to add it into a CSV file to do the data analysis and build the machine learning model.
    
 2. [Exploratory Data Analysis Notebook](https://github.com/divyanshuaggarwal/Reddit-Flair-Detector/blob/master/Exploratory_Data_Analysis.ipynb) contains all the code that was used to analyse and visualize the data.
     
